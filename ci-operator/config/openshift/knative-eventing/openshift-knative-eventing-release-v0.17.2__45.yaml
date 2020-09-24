@@ -3,6 +3,10 @@ base_images:
     name: "4.5"
     namespace: ocp
     tag: base
+  cli:
+    name: "4.5"
+    namespace: ocp
+    tag: cli
 binary_build_commands: make install
 build_root:
   project_image:
